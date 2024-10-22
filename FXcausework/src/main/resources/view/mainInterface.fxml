@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="630.0" prefWidth="941.0" style="-fx-background-color: #d0cfce;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Maininterface">
+   <children>
+      <ImageView fitHeight="546.0" fitWidth="554.0" layoutX="18.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Users/User/Desktop/img/White%20and%20Beige%20Summer%20Fashion%20Collage%20Instagram%20Post.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="689.0" layoutY="223.0" onAction="#btnAdminOnAction" prefHeight="90.0" prefWidth="202.0" text="ADMIN">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="689.0" layoutY="330.0" onAction="#btnEmployeeOnAction" prefHeight="90.0" prefWidth="202.0" text="EMPLOYEE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

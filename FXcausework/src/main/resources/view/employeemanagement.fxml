@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="382.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.employee.EmployeeManagementController">
+   <children>
+      <JFXTextField fx:id="emId2" layoutX="94.0" layoutY="46.0" promptText="EMPLOYEE ID" />
+      <JFXTextField fx:id="emname2" layoutX="94.0" layoutY="83.0" promptText="NAME" />
+      <JFXTextField fx:id="emsalary2" layoutX="94.0" layoutY="174.0" promptText="SALARY" />
+      <JFXTextField fx:id="ememail2" layoutX="94.0" layoutY="131.0" promptText="EMAIL" />
+      <JFXButton layoutX="153.0" layoutY="313.0" onAction="#addemployeebtnOnAction" style="-fx-background-color: #89CFF0;" text="ADD" />
+      <JFXButton layoutX="300.0" layoutY="313.0" onAction="#deleteemployeebtnOnAction" style="-fx-background-color: #ec7063;" text="DELETE" />
+      <JFXTextField fx:id="empassword" layoutX="94.0" layoutY="248.0" promptText="PASSWORD" />
+      <JFXTextField fx:id="emcomapny2" layoutX="94.0" layoutY="210.0" promptText="COMPANY" />
+      <ImageView fitHeight="197.0" fitWidth="372.0" layoutX="245.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Users/User/Downloads/pngtree-businesswoman-showing-workplace-to-new-employee-png-image_6309870.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="193.0" layoutY="19.0" prefHeight="26.0" prefWidth="213.0" text="Employee Management">
+         <font>
+            <Font name="Calibri" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
